@@ -15,8 +15,8 @@ class NumberModel {
     this.notifyObservers();
   }
   
-  addObserver(o){
-    this.observers.push(o);
+  addObserver(observer){
+    this.observers.push(observer);
   }
   
   notifyObservers(){
